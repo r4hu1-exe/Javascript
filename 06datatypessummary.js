@@ -10,15 +10,17 @@
 
 //Example:
 
-const id = Symbol('123')     //the id should be always unique for every user
+//const id = Symbol('123')     //the id should be always unique for every user
 
-const anotherId = Symbol('123')
+//const anotherId = Symbol('123')
 
-console.log(id === anotherId)
+//console.log(id === anotherId)
  //Its showing false even we have give the same id 
 
  const bigNumber = 3754328974n
 
+//for knowing the the variable datatypes
+console.log(typeof bigNumber);
 
 
 //Non-Primitive datatypes (Reference)
@@ -27,10 +29,10 @@ console.log(id === anotherId)
 
 //Array
 const heros = ["hulk","shaktimaan","naagraj"]
-
+console.log(heros);
 
 //Object
-
+//you are giving any variable null then its datatype will show as object
 let myObj=
 {
     name: "rahul",
@@ -41,5 +43,5 @@ let myObj=
 }
 console.log(myObj)
 
-
+//if u are printing the datatype of function which is myObj it will also print function-object
 //master the objects and web events in javascript for mastering JS *****Important******
