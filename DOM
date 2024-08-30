@@ -1,0 +1,31 @@
+ DOM 
+
+
+
+document.getElementById
+
+document.getElementByClassName('heading')
+
+
+document.getElementByName
+
+document.getElementByTagName
+
+document.getElementByTagNameNS
+
+
+
+title.innerText ==========> Used for Showing the content
+
+title.textContent ===========> Also helps to show hidden content  ///Best ONE
+
+title.innerHTML  ==============>You will also able to see inside html tags if there //NOt good idea
+
+
+
+
+document.querySelector('h1')     //================>You will get first h1
+
+document.querySelector('#title')
+
+
