@@ -1,0 +1,55 @@
+<!--  02/03/24 DOM Manipulation-->
+
+<!--//Document Object Model-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM study</title>
+    <style>
+        .bg-black{
+            background-color: black;
+            color: white;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        .img{
+            text-align: center;
+            height: auto;
+
+        width: auto;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 id ="title" class="heading"> Pwned by BinaryBandit </h1>
+
+    <div class="img"> <img src="https://c4.wallpaperflare.com/wallpaper/813/308/1001/joker-batman-mask-the-dark-knight-wallpaper-preview.jpg"
+    </div> 
+     <h2>
+        Contact Info : <a href ="https://t.me/r4hu1.exe">Telegram</a>
+       </h2>   
+       <p id="demo"></p>
+       <script>document.getElementById("demo").innerHTML="Lorem ipsum dolor sit amet consectetur."</script>
+    </div>
+    
+ <script>
+    var a = document.querySelector("h1")
+    a.addEventListener("mouseover",function () {
+        alert("Pwned by r4hu1.exe")
+        a.innerHTML="Pwned by r4hu1.exe"
+        a.style.color="grey"
+        a.style.backgroundColor="white"
+    })
+ </script>
+</body>
+</html>
+
